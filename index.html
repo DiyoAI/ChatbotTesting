@@ -1,6 +1,31 @@
+<!DOCTYPE html>
 <html>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <head>
+    <style>
+      .main_text {
+        color: black;
+        padding: 15px;
+        position: absolute;
+        font-size: 35px;
+        text-align: center;
+        line-height: 55px;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      #content {
+        position: relative;
+      }
+      #content img {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+      }
+    </style>
     <script>
       !(function () {
         let e = document.createElement("script"),
@@ -45,6 +70,21 @@
     </script>
   </head>
   <body>
-    This is Butwal SubMetropolitan's Chatbot.
+    <div class="main_text">
+      स्थानीय निकायसम्बन्धि प्रश्नका जवाफ पाउने <br />छिटो, सरल र सजिलो माध्यम
+    </div>
+    <div style="position: relative">
+      <p
+        style="
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          font-size: 20px;
+        "
+      >
+        बुटवल उप-महानगरपालिकाको वेबसाइटमा छिटै नै उपलब्ध हुनेछ
+      </p>
+    </div>
   </body>
 </html>
